@@ -1,0 +1,29 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/solution.js",
+  "scripts": {
+    "test": "ava",
+    "build": "tsc",
+    "start": "ts-node solution.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^4.1.0",
+    "ts-node": "^10.9.2",
+    "ava": "^6.1.2"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
